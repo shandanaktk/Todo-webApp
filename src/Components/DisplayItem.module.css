@@ -1,0 +1,24 @@
+.comp {
+  text-decoration: line-through;
+}
+
+.item {
+  width: 500px;
+  font-weight: 20px;
+  font-size: 20px;
+}
+
+.itemName {
+  font-weight: 40px;
+  padding: 20px;
+}
+
+.x {
+  cursor: pointer;
+  float: right;
+  padding: 12px 20px;
+  background-color: #f7ca18;
+  border: none;
+  color: white;
+  font-weight: bold;
+}

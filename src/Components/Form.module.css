@@ -1,0 +1,47 @@
+.bx {
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+  width: 500px;
+  margin-top: 50px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.2);
+}
+
+.outln {
+  display: flex;
+  flex-direction: row; /* Change from column to row */
+  align-items: center; /* Center items vertically */
+  gap: 10px; /* Add space between the input and button */
+}
+
+.ip {
+  flex: 1;
+  display: block;
+  width: 100%;
+  border: none;
+  height: 30px;
+  font-size: 20px;
+}
+
+.ip :focus {
+  outline: none;
+}
+
+.btn {
+  color: white;
+  font-weight: bold;
+  display: flex; /* Use flex to center the text */
+  justify-content: center; /* Center the text horizontally */
+  align-items: center; /* Center the text vertically */
+  border: none; /* Ensure no border */
+  height: 30px; /* Set the height */
+  padding: 0 20px; /* Padding on left and right */
+  background-color: #f7ca18; /* Background color */
+  cursor: pointer; /* Pointer cursor on hover */
+  white-space: nowrap; /* Prevent text from wrapping */
+  font-size: 16px; /* Adjust font size if needed */
+  margin-left: auto;
+  margin-top: 10px;
+}
